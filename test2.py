@@ -4,4 +4,4 @@ for i in range(7):
     if x > 16:
         print(x/2)
     else:
-        print(x*2)
+        print(x*2+1)
