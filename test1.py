@@ -1,6 +1,10 @@
-x = int(input("please enter a number: "))
-y = int(input("and another: "))
-if x > y:
-    print(x - y)
-else:
-    print(y - x)
+class Employee:
+    pass
+
+john = Employee()  # Create an empty employee record
+
+# Fill the fields of the record
+john.name = 'John Doe'
+john.dept = 'computer lab'
+john.salary = 1000
+print(Employee)
